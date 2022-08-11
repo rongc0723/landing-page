@@ -25,6 +25,7 @@ body{
 h1{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 
 
@@ -54,7 +55,7 @@ ul{
 
 .first h1{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
@@ -62,6 +63,37 @@ ul{
     width: 370px;
 
 }
+
+
+.info h1{
+    text-align: center;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container .box{
+    border-radius: 10px;
+    height: 140px;
+    width: 140px;
+    border: 2px solid #3882F6;
+}
+
+.container p{
+    width: 140px;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
 
 
 button{
@@ -73,11 +105,30 @@ button{
 
 .quote{
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
 }
+
+.quote .content{
+    font-size: 36px;
+}
+
+
+
+
+
+
+
 
 
 .footer{
     background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
